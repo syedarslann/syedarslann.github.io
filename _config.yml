@@ -24,9 +24,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Syed Arslan Ali Shah"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Combinatorial, Mixed Integer & Multi-Objective Optimization Enthusiast | Future CS Researcher | Solving Real-World Problems with Optimization & Reinforcement Learning"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
