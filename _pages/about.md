@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Syed Arslan Shah (Usæma, 120103) hehe"
+title: "Syed Arslan Ali Shah (Usæma, 120103) hehe"
 author_profile: true
 redirect_from: 
   - /about/
