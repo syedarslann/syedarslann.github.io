@@ -2,19 +2,11 @@
 ---
 
 /*
- * Main SCSS entry file for Academic Pages / Minimal Mistakes style theme
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-
-/* ========================================================================== */
-/* FONTS                                                                      */
-/* ========================================================================== */
-
-/* Load JetBrains Mono */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
-
-/* ========================================================================== */
-/* IMPORT THEME FILES (DO NOT CHANGE ORDER)                                   */
-/* ========================================================================== */
 
 @import
     "vendor/breakpoint/breakpoint",
@@ -45,113 +37,3 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
-
-/* ========================================================================== */
-/* GLOBAL FONT OVERRIDE (PUT THIS AT END TO WIN ALL CONFLICTS)                */
-/* ========================================================================== */
-
-body,
-p,
-a,
-li,
-span,
-div,
-h1, h2, h3, h4, h5, h6,
-.page__content,
-.sidebar,
-.author__name,
-.author__bio,
-.author__content,
-.archive__item-title {
-  font-family: "JetBrains Mono", monospace !important;
-}
-
-/* Sidebar full force override */
-.sidebar * {
-  font-family: "JetBrains Mono", monospace !important;
-}
-
-/* Code stays JetBrains Mono too */
-code,
-pre,
-tt {
-  font-family: "JetBrains Mono", monospace !important;
-}---
----
-
-/*
- * Main SCSS entry file for Academic Pages / Minimal Mistakes style theme
- */
-
-/* ========================================================================== */
-/* FONTS                                                                      */
-/* ========================================================================== */
-
-/* Load JetBrains Mono */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
-
-/* ========================================================================== */
-/* IMPORT THEME FILES (DO NOT CHANGE ORDER)                                   */
-/* ========================================================================== */
-
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv"
-;
-
-/* ========================================================================== */
-/* GLOBAL FONT OVERRIDE (PUT THIS AT END TO WIN ALL CONFLICTS)                */
-/* ========================================================================== */
-
-body,
-p,
-a,
-li,
-span,
-div,
-h1, h2, h3, h4, h5, h6,
-.page__content,
-.sidebar,
-.author__name,
-.author__bio,
-.author__content,
-.archive__item-title {
-  font-family: "JetBrains Mono", monospace !important;
-}
-
-/* Sidebar full force override */
-.sidebar * {
-  font-family: "JetBrains Mono", monospace !important;
-}
-
-/* Code stays JetBrains Mono too */
-code,
-pre,
-tt {
-  font-family: "JetBrains Mono", monospace !important;
-}
