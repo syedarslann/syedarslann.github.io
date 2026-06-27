@@ -101,3 +101,23 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap');
+
+body,
+html,
+p,
+li,
+span,
+div,
+.author__bio,
+.sidebar,
+.site-title,
+.page__content {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+pre,
+code,
+tt {
+  font-family: "JetBrains Mono", monospace !important;
+}
