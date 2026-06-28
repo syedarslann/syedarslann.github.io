@@ -19,8 +19,4 @@ I am confident that my background, curiosity, and commitment to interdisciplinar
 
 
 
-Academic Personal Website
-======
-Entirely made in CSS and html with the help of github repo. [GitHub pages](https://pages.github.com/) 
-
 
