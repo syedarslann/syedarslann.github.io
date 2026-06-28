@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.E. (M.Sc) in Electrical Engineering, Quaid-e-Awam University, Pakistan, 2021-2024
+* B.E. (B.Sc) in Electrical Engineering, Quaid-e-Awam University, Pakistan, 2016-2019
 
 Work experience
 ======
