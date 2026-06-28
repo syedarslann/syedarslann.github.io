@@ -12,33 +12,35 @@ redirect_from:
 Education
 ======
 * M.E. (M.Sc) in Electrical Engineering, Quaid-e-Awam University, Pakistan, 2021-2024
-* B.E. (B.Sc) in Electrical Engineering, Quaid-e-Awam University, Pakistan, 2016-2019
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
-Skills
+  CGPA: 3.96
+  
+* B.E. (B.Sc) in Electrical Engineering, Quaid-e-Awam University, Pakistan, 2016-2019
+  
+  CGPA: 3.84
+
+
+Work Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Junior Elementary School Teacher (Aug 2022 - Present)
+  * Sindh Education and Literacy Department
+  * Duties includes: I teach subjects like Physics, Mathematics and Chemistry to 10th graders, prepare lesson plans, and assess performance. I manage classroom discipline, maintain student records, and communicate with parents.
+
+* Project Engineer (Jan 2020 - July 2022)
+  * Shaheen Construction Co.
+  * Duties included: Supervised the Electric works i.e., HT Line Feeders, LT Proposals, Village Electrification works and all type of 11 kV installation in District Shaheed Benazirabad.
+
+Internship Experience
+======
+* Hyderabad Electric Supply Company (HESCO) Grid Station (May 2019 - July 2019)
+  * Learned the basic working of an electric grid station with the familiarity of various components such as; Bus bars, Isolators, Transformers, C.T, P.T, capacitor banks and batteries.
+
+* Pakistan Telecommunication Company Limited (PTCL) (May 2018 - July 2018)
+  * Learned the core understanding and working of power backups, switching rooms, optical fiber systems, control and battery systems in the telecommunication field.
+
+Peer Review Experience
+======
+* Reviewed research manuscript for IEEE Access.
 
 Publications
 ======
@@ -46,18 +48,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
